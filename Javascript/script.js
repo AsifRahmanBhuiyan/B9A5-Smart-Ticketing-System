@@ -78,3 +78,18 @@ function inputCheck() {
     }
 
 }
+
+
+function scrollInto() {
+    var elmnt = document.getElementById('ticket-section');
+    elmnt.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+        inline: "nearest"
+    });
+}
+
+const buyTicket = document.getElementById("buy-ticket");
+buyTicket.addEventListener("click", function () {
+    buyTicket.scroll()
+})
