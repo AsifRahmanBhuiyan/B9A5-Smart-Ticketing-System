@@ -197,25 +197,25 @@
     <!-- Ticket Info Section Ends -->
 
     <!-- Select Seat Section Starts-->
-    <section class="container mx-auto w-11/12 flex lg:flex-row flex-col">
+    <section class="container mx-auto w-11/12 flex lg:flex-row flex-col bg-white">
 
-      <div>
+      <div class="px-10">
         <!-- Left Upper -->
-        <h3>Select Your Seat</h3>
+        <h3 class="font-raleway font-semibold text-2xl mb-3 lg:mb-6">Select Your Seat</h3>
 
-        <div class="flex justify-between">
+        <div class="flex justify-between border-y-2 border-dashed border-gray-400 py-2">
           <div class="flex">
             <img src="images/seat-gray.png" alt="">
             <p>Available</p>
           </div>
           <div class="flex">
             <img src="images/seat-green-filled.png" alt="">
-            <p>Selected</p>
+            <p class="text-[#1dd100]">Selected</p>
           </div>
         </div>
 
         <div class="flex justify-end">
-          <img class=" bg-[#03071219] px-6 py-3 rounded-lg" src="images/drive.png" alt="">
+          <img class=" bg-[#03071219] px-6 py-3 rounded-lg mt-4 lg:mt-8" src="images/drive.png" alt="">
         </div>
 
 
@@ -365,25 +365,26 @@
         </div>
       </div>
 
-      <div class="flex-1">
-        <h3>Select Your Seat</h3>
+      <!-- Right upper -->
+      <div class="flex-1 border-0 lg:border-l-2 border-dashed border-gray-400 px-10">
+        <h3 class="border-b-2 border-dashed border-gray-400 font-raleway font-semibold text-2xl pb-3 lg:pb-6">Select Your Seat</h3>
 
-        <div class="bg-[#f7f8f8]">
-          <div class="flex justify-between">
+        <div class="bg-[#49d1d1] p-8 mt-4 rounded-lg">
+          <div class="flex justify-between font-bold border-b-2 border-dashed border-gray-400 pb-2">
             <p>Seat</p>
             <p>Class</p>
             <p>Price</p>
           </div>
-          <hr>
+        
 
-          <div class="flex justify-between">
+          <div class="flex justify-between py-2">
             <p>N/A</p>
             <p>N/A</p>
             <p>N/A</p>
           </div>
 
-          <hr>
-          <div class="flex justify-between">
+          
+          <div class="flex justify-between border-t-2 border-solid border-gray-400 py-2">
             <p>Total Price</p>
             <p>BDT 0</p>
           </div>
@@ -393,24 +394,24 @@
             <span class="badge badge-info bg-[#1dd100] p-4">Apply</span>
           </label>
 
-          <div class="flex justify-between">
+          <div class="flex justify-between pt-2">
             <p>Grand Total</p>
             <p>BDT 0</p>
           </div>
         </div>
 
-        <p>Passenger Name*</p>
+        <p class="mt-4">Passenger Name*</p>
         <input type="text" placeholder="Enter your name" class="input input-bordered w-full" />
 
-        <p>Phone Number*</p>
+        <p class="mt-4">Phone Number*</p>
         <input type="text" placeholder="Enter your phone number" class="input input-bordered w-full" />
 
-        <p>Email ID</p>
+        <p class="mt-4">Email ID</p>
         <input type="text" placeholder="Enter your email id" class="input input-bordered w-full" />
 
-        <button class="btn text-white bg-[#1dd100] w-full">Next</button>
+        <button class="btn text-white bg-[#1dd100] w-full my-4">Next</button>
 
-        <div class="flex justify-between">
+        <div class="flex justify-between mb-4">
           <p class="underline">Terms and Conditions</p>
           <p class="underline">Cancellation Policy</p>
         </div>
@@ -423,11 +424,11 @@
 
 
   <!-- Footer Section Starts -->
-  <footer class="p-10 bg-black text-neutral-content">
-    <div class="flex justify-between">
+  <footer class="p-20 bg-black text-neutral-content">
+    <div class="flex justify-between border-b-2 border-dashed border-gray-400 mb-6">
       <aside>
-        <h3 class="text-4xl font-extrabold font-raleway">P-Ticket</h3>
-        <p>P-Ticket is a digital platform to make your<br>daily commuting better.</p>
+        <h3 class="text-4xl font-extrabold font-raleway mb-4">P-Ticket</h3>
+        <p class="mb-8">P-Ticket is a digital platform to make your<br>daily commuting better.</p>
       </aside> 
       <nav>
         <h6 class="footer-title">Download Our App</h6> 
@@ -436,11 +437,11 @@
         </div>
       </nav>
     </div>
-    <hr>
     
-    <div class="flex justify-between">
+    
+    <div class="flex flex-col lg:flex-row gap-4 text-center justify-between">
       <p>@all rights reserved, P-Ticket services limited.2024</p>
-      <div class="flex gap-4">
+      <div class="flex flex-col lg:flex-row gap-4">
         <p>Terms & condition</p>
         <p>Return & refund policy</p>
         <p>Privacy policy</p>
